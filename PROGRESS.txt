@@ -9,8 +9,4 @@ new_Wmat = []
 new_Wmat.append(np.load("layer0.npy"))
 
 Problem:
-  Python-cpp linking problem!!!!!!!!!
-TODO:
-Recognizing numbers from puzzle pictures:
-  -- load trained weights in the cpp file and start recognizing
-  -- store recognized numbers in a 2d array (grid[9][9])
+  Recognizing problem. Seg Fault with Python-Cpp finalizing.
