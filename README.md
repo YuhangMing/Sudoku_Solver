@@ -9,7 +9,7 @@ The program can solve any puzzles but having problem reconizing the puzzle image
 
 compile:
 
-g++ main.cpp Sudoku.cpp -o solver `pkg-config --cflags --libs opencv` -I/usr/include/python2.7/ -lpython2.7
+g++ main.cpp Sudoku.cpp -o solver \`pkg-config --cflags --libs opencv\` -I/usr/include/python2.7/ -lpython2.7
 
 run:
 
